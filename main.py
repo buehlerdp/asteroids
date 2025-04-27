@@ -27,6 +27,7 @@ def main():
             
         screen.fill((0,0,0))
 
+        playersprite.update(dt)
         playersprite.draw(screen)
 
         pygame.display.flip()
